@@ -1,4 +1,3 @@
-[![Latest Downloads](https://img.shields.io/github/downloads/LeafWulf/dynamic-shadows/latest/module.zip?color=blue&label=latest%20downloads)](https://github.com/LeafWulf/dynamic-shadows/releases/latest) [![Total Downloads](https://img.shields.io/github/downloads/LeafWulf/dynamic-shadows/module.zip?color=blue&label=total%20downloads)](https://github.com/LeafWulf/dynamic-shadows/releases)  
 [![Discord](https://dcbadge.vercel.app/api/shield/219289132235489280?style=flat)](https://discord.gg) [![Ko-fi](https://img.shields.io/badge/Ko--fi-winterwulf-0374b5?logo=kofi)](https://ko-fi.com/winterwulf)
 
 # Archon
