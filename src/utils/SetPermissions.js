@@ -1,4 +1,4 @@
-import { client } from 'archmage/Client';
+import { client } from 'archon/Client';
 
 export async function setPermissions (guildId, commandList, roleName = 'Administrador') {
   const guild = await client.guilds.fetch(guildId);

@@ -1,6 +1,6 @@
 import * as Sentry from '@sentry/node';
 import { SlashCommandBuilder } from '@discordjs/builders';
-import { client } from 'archmage/Client';
+import { client } from 'archon/Client';
 
 export const command = {
   data: new SlashCommandBuilder()

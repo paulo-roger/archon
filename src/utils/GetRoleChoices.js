@@ -1,4 +1,4 @@
-import { client } from 'archmage/Client';
+import { client } from 'archon/Client';
 
 export async function getRoleChoices (guildId = process.env.GUILD_ID) {
   const roleChoices = [];

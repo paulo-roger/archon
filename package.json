@@ -2,17 +2,36 @@
   "name": "archon",
   "version": "1.1.1",
   "description": "",
+  "type": "module",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulo-roger/archon.git"
+  },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/paulo-roger/archon/issues"
   },
-  "license": "UNLICENSED",
-  "author": "Elvis Pereira <elvispereira@hotmail.com> (https://creativelabs.dev)",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:paulo-roger/archon.git"
+  "homepage": "https://github.com/paulo-roger/archon#readme",
+  "dependencies": {
+    "@discordjs/builders": "^1.2.0",
+    "@discordjs/rest": "^1.2.0",
+    "@sentry/node": "^7.14.1",
+    "discord-api-types": "^0.37.11",
+    "discord.js": "^14.5.0",
+    "pm2": "^5.2.0"
   },
-  "type": "module",
-  "main": "./app.js",
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.6",
+    "semantic-release": "^19.0.5",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "json": "^11.0.0",
+    "commitizen": "^4.2.5",
+    "semistandard": "^16.0.1"
+  },
   "exports": {
     "./*": "./src/*.js",
     "./Commands": "./src/commands/index.js",
@@ -23,25 +42,6 @@
     "debug": "node --inspect app.js",
     "lint": "semistandard app.js src/ commands/",
     "lint:fix": "semistandard --fix app.js src/ commands/"
-  },
-  "dependencies": {
-    "@discordjs/builders": "^0.7.0",
-    "@discordjs/rest": "^0.1.0-canary.0",
-    "@sentry/node": "^6.15.0",
-    "discord-api-types": "^0.24.0",
-    "discord.js": "^13.3.1",
-    "pm2": "^5.1.2"
-  },
-  "devDependencies": {
-    "@semantic-release/commit-analyzer": "^9.0.2",
-    "@semantic-release/exec": "^6.0.2",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^7.0.4",
-    "commitizen": "^4.2.4",
-    "conventional-changelog-conventionalcommits": "^4.6.1",
-    "json": "^11.0.0",
-    "semantic-release": "^18.0.1",
-    "semistandard": "^16.0.1"
   },
   "engines": {
     "node": ">=16.6.0"

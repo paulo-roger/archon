@@ -1,8 +1,8 @@
 import * as Sentry from '@sentry/node';
-import { client } from 'archmage/Client';
-import { ENVIRONMENT, GUILD_ID, SENTRY_DSN, VERSION } from 'archmage/Config';
-import { handleInteraction, loadCommands, registerGuildCommands } from 'archmage/Commands';
-import { getChannels, getRoleChoices, setPermissions } from 'archmage/Utils';
+import { client } from 'archon/Client';
+import { ENVIRONMENT, GUILD_ID, SENTRY_DSN, VERSION } from 'archon/Config';
+import { handleInteraction, loadCommands, registerGuildCommands } from 'archon/Commands';
+import { getChannels, getRoleChoices, setPermissions } from 'archon/Utils';
 
 Sentry.init({
   dsn: SENTRY_DSN,

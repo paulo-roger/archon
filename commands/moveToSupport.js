@@ -1,6 +1,6 @@
 import * as Sentry from '@sentry/node';
 import { ContextMenuCommandBuilder } from '@discordjs/builders';
-import { movedEmbed } from 'archmage/Utils';
+import { movedEmbed } from 'archon/Utils';
 
 export const command = {
   data: new ContextMenuCommandBuilder()
