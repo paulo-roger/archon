@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 .vscode
 ignore
 node_modules
 .env
+=======
+.vscode
+ignore
+node_modules
+.env
+>>>>>>> 436a38ffa3e31450cbc507e4eb4e218683603418
