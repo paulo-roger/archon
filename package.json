@@ -1,0 +1,50 @@
+{
+  "name": "archmage",
+  "version": "1.1.1",
+  "description": "",
+  "bugs": {
+    "url": "https://gitlab.com/elvis-pereira/archmage-bot/-/issues"
+  },
+  "license": "UNLICENSED",
+  "author": "Elvis Pereira <elvispereira@hotmail.com> (https://creativelabs.dev)",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:elvis-pereira/archmage-bot.git"
+  },
+  "type": "module",
+  "main": "./app.js",
+  "exports": {
+    "./*": "./src/*.js",
+    "./Commands": "./src/commands/index.js",
+    "./Utils": "./src/utils/index.js"
+  },
+  "scripts": {
+    "dev": "node app.js",
+    "debug": "node --inspect app.js",
+    "lint": "semistandard app.js src/ commands/",
+    "lint:fix": "semistandard --fix app.js src/ commands/"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.7.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@sentry/node": "^6.15.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.3.1",
+    "pm2": "^5.1.2"
+  },
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/exec": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/gitlab": "^7.0.4",
+    "commitizen": "^4.2.4",
+    "conventional-changelog-conventionalcommits": "^4.6.1",
+    "json": "^11.0.0",
+    "semantic-release": "^18.0.1",
+    "semistandard": "^16.0.1"
+  },
+  "engines": {
+    "node": ">=16.6.0"
+  },
+  "private": true
+}
