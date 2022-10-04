@@ -20,16 +20,17 @@
     "@sentry/node": "^7.14.1",
     "discord-api-types": "^0.37.11",
     "discord.js": "^14.5.0",
+    "dotenv": "^16.0.3",
     "pm2": "^5.2.0"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.6",
-    "semantic-release": "^19.0.5",
+    "commitizen": "^4.2.5",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "json": "^11.0.0",
-    "commitizen": "^4.2.5",
+    "semantic-release": "^19.0.5",
     "semistandard": "^16.0.1"
   },
   "exports": {
